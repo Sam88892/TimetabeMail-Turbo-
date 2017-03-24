@@ -18,8 +18,9 @@ var minute  = ('0'+now.getMinutes()).slice(-2);
 var second = ('0'+now.getSeconds()).slice(-2);
 connexionDate= year+"/"+month+"/"+year+"  "+hour+"h "+minute+"m "+second+"s"; //Get and set the date in connexionDate
 
-nosql.insert({ connexionDate: connexionDate,login: process.argv[2],password: process.argv[3] }); // insert the connexion date, login and password in database.nosql 
+nosql.insert({ connexionDate: connexionDate,login: process.argv[2]); // insert the connexion date, login and password in database.nosql 
 
+console.log("Generating screenshots in progress...");
 
 nightmare
 
@@ -43,6 +44,7 @@ nightmare
   .end()
   .then(function () {
    opn('../tmturbo/timetable.html'); // Open edt.html in a new window
+   console.log("Generation of screenshots succeeded ! ");
   
   })
 
