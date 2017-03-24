@@ -1,0 +1,17 @@
+{
+  "name": "tmturbo",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "SDitchi",
+  "contributors": [],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "nightmare": "^2.9.1"
+  }
+}
