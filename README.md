@@ -18,4 +18,4 @@ Manual :
 2) Type node tmturbo.js yourlogin yourpassword
 3) You can see your schedules and mails in a web page that opens
 
-Thanks to use Timetable Mail Turbo !
+Thank you use Timetable Mail Turbo !
